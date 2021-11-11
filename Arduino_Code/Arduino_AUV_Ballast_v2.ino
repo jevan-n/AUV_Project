@@ -13,6 +13,7 @@
 //                Once its rotated to the correct Yaw anlge, the AUV then moves straight along its body-frame X direction, for a distance of the triangulated hypotenues, 
 //                at which point is X-Yact = X-Yref.
 // PACKAGES   :   Please install PID_v1 package and any plugins that come with the Depth/Pressure Sensor into Arduino IDE to compile and run this code
+// NOTE       :   This source code is dependent on the installation of a depth/pressure sensor
 
 //****************************************************/ 
 /***********Notice and Trouble shooting***************
