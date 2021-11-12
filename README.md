@@ -9,4 +9,4 @@ AUV Project - Stellenbosch University - Final Year Skripsie
       - download all 3 files into one folder before running in Matlab/Simulink ver R2021a
 - Volume Displacement Calculator - for volume displacement of AUV components & Internial Calculator
 - Skripsie Folder - contains the design project thesis belonging to Stellenbosh University
-- Fotos and Videos - various fotos & video clips during build process
+
