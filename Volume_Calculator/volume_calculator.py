@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 import math
 
-## SUN_AUV PROJECT
+## AUV PROJECT
 ## JEVAN NAIDOO
 ## 2021
+## This program was sourced from Gazebosim (computer software). 2014. BuoyancyPlugin [Online]. 
+## Available from: http://gazebosim.org/tutorials?tut=hydrodynamics&cat=plugins#UsingtheBuoyancyPlugin
+## It is easiest to run this program using Microsoft Visual Studio Code with the Python Plugin installed
 
 class BuoyancyCalculator(object):
 
