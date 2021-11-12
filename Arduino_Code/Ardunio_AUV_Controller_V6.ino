@@ -9,7 +9,10 @@
 // HW RQUIRED :   To operate the software, an IMU (BNO055) needs to be connected to the Arduino UNO and rotated manually, if not connected to the real AUV.
 // OPERATION  :   On processing XYZ target references, the controller initially computes the Yaw-ref angle for which the AUV needs to be rotated. 
 //                Once its rotated to the correct Yaw anlge, the AUV then moves straight along its body-frame X direction, for a distance of the triangulated hypotenues, 
-//                at which point is X-Yact = X-Yref.
+//                at which point is X-Yact = X-Yref.  At this stage the AUV would reach the X-Y reference target.
+//                Whilst the AUV is close reaches the X-Y target position, the depth controller activates and takes the AUV to its Z-ref target.
+//                The X-Y and Z movement of the AUV can be set to operate concurrenty or sequentially.  The program is set to activate Z motion once the AUV is within 0.05m of its XY target.
+//                The output of the controller can be viewed on the Arduino IDE Serial Monitor.
 // PACKAGES   :   Please install Adafruit_Sensor, Adafruit_BNO055, PID_v1 and ESC packages into Arduino IDE to compile and run this code
 
 
